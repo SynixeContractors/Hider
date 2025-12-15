@@ -1,0 +1,12 @@
+name = "Synixe Hider";
+picture = "logo_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/SynixeContractors/Hide";
+description = "Synixe Hider hides units we do not want";
+logo = "logo_ca.paa";
+logoOver = "logo_ca.paa";
+tooltip = "Synixe Hider";
+tooltipOwned = "Synixe Hider Owned";
+overview = "Synixe Hider hides units we do not want";
+author = "Synixe Contractors";
+overviewPicture = "logo_ca.paa";

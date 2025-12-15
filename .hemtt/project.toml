@@ -1,0 +1,30 @@
+name = "Synixe Hider"
+author = "Synixe Contractors"
+prefix = "synixe_hider"
+mainprefix = "s"
+
+[hemtt.launch.default]
+workshop = [
+    "3499977893", # ADT
+    "synixe:@3den_attributes_fast_load",
+    "synixe:@ace_noactionmenu",
+    "synixe:@ace_nocrosshair",
+    "synixe:@ace_particles",
+    "synixe:@ace_realisticdispersion",
+    "synixe:@ace_tracers",
+    "synixe:@ace",
+    "synixe:@aegis_atlas",
+    "synixe:@aegis_opposing_forces",
+    "synixe:@aegis",
+    "synixe:@cba_a3",
+    "synixe:@cba_rf",
+    "synixe:@cba_ws",
+    "synixe:@korsac",
+    "synixe:@mu",
+    "synixe:@oteden",
+    "synixe:@rf",
+    "synixe:@synixe_standardization",
+    "synixe:@theseus_services",
+    "synixe:@toh_characters",
+    "synixe:@ws",
+]
