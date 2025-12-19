@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_main",
+            "A3_Armor_F_Beta_APC_Tracked_01",
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";
