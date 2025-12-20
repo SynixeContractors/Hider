@@ -7,13 +7,13 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_hider_main",
-"ace_spottingscope",
 "ace_fastroping",
-"ace_dragon",
-"ace_spectator",
+"ace_spottingscope",
+"ace_refuel",
 "ace_explosives",
-"ace_dragging",
-"ace_refuel"
+"ace_spectator",
+"ace_dragon",
+"ace_dragging"
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";

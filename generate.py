@@ -20,6 +20,8 @@ def get_addon(source):
         return "toh"
     elif source.startswith("vtf_kf"):
         return "korsac"
+    elif source == "MELB":
+        return "melb"
     elif any(source.startswith(prefix) for prefix in bi):
         return "bi"
     else:

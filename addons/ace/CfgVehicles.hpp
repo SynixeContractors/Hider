@@ -1,17 +1,17 @@
 // Auto-generated file. Do not edit.
 
 class CfgVehicles {
+class ModuleExplosive_IEDLandBig_F;
+class ModuleExplosive_IEDLandSmall_F;
 class ModuleExplosive_IEDUrbanBig_F;
-class ModuleMine_SLAMDirectionalMine_F;
-class ModuleMine_APERSTripMine_F;
-class ModuleMine_APERSMine_F;
 class Helicopter_Base_F;
-class ModuleExplosive_IEDUrbanSmall_F;
+class ModuleMine_APERSTripMine_F;
+class ModuleMine_SLAMDirectionalMine_F;
 class ACE_SpottingScopeObject;
 class StaticATWeapon;
-class ModuleExplosive_IEDLandSmall_F;
 class VirtualMan_F;
-class ModuleExplosive_IEDLandBig_F;
+class ModuleMine_APERSMine_F;
+class ModuleExplosive_IEDUrbanSmall_F;
 class C_man_1;
 
 class ACE_B_SpottingScope: ACE_SpottingScopeObject { scope = 1; scopeCurator = 1; };
