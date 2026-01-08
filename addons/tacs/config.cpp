@@ -7,11 +7,11 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_hider_main",
-"tacs_vehicles",
+"tacs_arcadian",
 "tacs_variants_melb",
 "tacs_variants_aegis",
 "tacs_units",
-"tacs_arcadian"
+"tacs_vehicles"
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";

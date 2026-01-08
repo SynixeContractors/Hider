@@ -7,9 +7,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_hider_main",
-"vtf_kf_main",
+"vtf_kf_units",
 "vtf_kf_vehicles",
-"vtf_kf_units"
+"vtf_kf_main"
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";

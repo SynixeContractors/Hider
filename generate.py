@@ -54,6 +54,10 @@ sorted_units = []
 while units_dict:
     for unit, parent in list(units_dict.items()):
         if parent not in units_dict:
+            if "Module" in unit:
+                # skip modules, we don't want to hide them
+                del units_dict[unit]
+                continue
             sorted_units.append({
                 "unit": unit,
                 "parent": parent,
@@ -111,6 +115,7 @@ for addon, data in addons.items():
     all_parents = set(member[1] for member in units)
     defined_classnames = set(member[0] for member in units)
     undefined_parents = all_parents - defined_classnames
+    undefined_parents = sorted(undefined_parents)
     unique_sources = set()
     for member in units:
         if member[2] != "<null>":

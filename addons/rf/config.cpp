@@ -8,17 +8,17 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_hider_main",
 "RF_Air_heli_medium_ec",
-"RF_Vehicles_CommandoMortar",
-"RF_Characters_Uniform",
-"RF_Characters",
-"RF_Air_RC40",
 "RF_Characters_Backpack",
-"RF_Vehicles_Truck_01",
-"RF_Air_Heli_Light_03",
 "RF_Vehicles_Pickup_01",
 "RF_Vehicles_Truck_03",
-"RF_Data_ws_compatibility",
-"RF_Vehicles_TwinMortar"
+"RF_Characters_Uniform",
+"RF_Vehicles_TwinMortar",
+"RF_Vehicles_Truck_01",
+"RF_Air_RC40",
+"RF_Vehicles_CommandoMortar",
+"RF_Air_Heli_Light_03",
+"RF_Characters",
+"RF_Data_ws_compatibility"
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";
