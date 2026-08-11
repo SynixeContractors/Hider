@@ -568,6 +568,7 @@ class I_MU_mercs_Offroad_01_comms: Offroad_01_military_comms_base_F { scope = 1;
 class I_MU_mercs_Quadbike_01_F: C_Quadbike_01_F { scope = 1; scopeCurator = 1; };
 class I_MU_mercs_MD500: C_Heli_Light_01_civil_F { scope = 1; scopeCurator = 1; };
 class I_MU_mercs_Mortar_01_F: I_G_Mortar_01_F { scope = 1; scopeCurator = 1; };
+class O_MU_mercs_Mortar_01_F: I_MU_mercs_Mortar_01_F { scope = 1; scopeCurator = 1; };
 class I_MU_mercs_HMG_02_high: I_G_HMG_02_high_F { scope = 1; scopeCurator = 1; };
 class I_MU_mercs_HMG_02: I_G_HMG_02_F { scope = 1; scopeCurator = 1; };
 class I_MU_mercs_caesar: Plane_Civil_01_base_F { scope = 1; scopeCurator = 1; };

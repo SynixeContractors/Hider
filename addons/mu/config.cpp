@@ -7,19 +7,19 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_hider_main",
+"MU_CTRG",
 "MU_LIV",
-"MU_asset",
-"MU_mercs",
 "MU_MILITIA",
-"MU_islam",
-"MU_doc_diver",
-"MU_greendagers",
-"MU_vehicles",
 "MU_RU",
+"MU_SF",
+"MU_asset",
 "MU_civilian",
 "MU_divers",
-"MU_SF",
-"MU_CTRG"
+"MU_doc_diver",
+"MU_greendagers",
+"MU_islam",
+"MU_mercs",
+"MU_vehicles"
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";

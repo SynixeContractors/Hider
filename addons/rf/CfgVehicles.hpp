@@ -29,7 +29,6 @@ class C_man_w_worker_F;
 class CommandoMortar_base_RF;
 class Heli_light_03_dynamicLoadout_base_F;
 class Heli_light_03_unarmed_base_F;
-class Helicopter_Base_F;
 class Helicopter_Base_H;
 class I_E_Soldier_LAT_F;
 class I_E_Support_Mort_F;
@@ -162,7 +161,7 @@ class Heli_EC_04_military_base_RF: Heli_EC_04_base_RF { scope = 1; scopeCurator 
 class C_Heli_EC_04_rescue_RF: Heli_EC_04_rescue_base_RF { scope = 1; scopeCurator = 1; };
 class C_Heli_EC_01_civ_RF: Heli_EC_01_civ_base_RF { scope = 1; scopeCurator = 1; };
 class C_Heli_EC_01A_civ_RF: Heli_EC_01A_civ_base_RF { scope = 1; scopeCurator = 1; };
-class UAV_RC40_Base_RF: Helicopter_Base_F { scope = 1; scopeCurator = 1; };
+class UAV_RC40_Base_RF: UAV_01_base_F { scope = 1; scopeCurator = 1; };
 class UAV_RC40_Base_Sensor_RF: UAV_RC40_Base_RF { scope = 1; scopeCurator = 1; };
 class UAV_RC40_Base_HE_RF: UAV_RC40_Base_RF { scope = 1; scopeCurator = 1; };
 class UAV_RC40_Base_SmokeWhite_RF: UAV_RC40_Base_HE_RF { scope = 1; scopeCurator = 1; };

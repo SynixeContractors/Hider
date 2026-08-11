@@ -123,6 +123,7 @@ for addon, data in addons.items():
     for group in groups:
         if group["source"] != "<null>":
             unique_sources.add(group["source"])
+    unique_sources = sorted(unique_sources)
     dir = f"addons/{addon}"
     # create dir if not exists
     import os

@@ -8,9 +8,9 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_hider_main",
 "tacs_arcadian",
-"tacs_variants_melb",
-"tacs_variants_aegis",
 "tacs_units",
+"tacs_variants_aegis",
+"tacs_variants_melb",
 "tacs_vehicles"
         };
         skipWhenMissingDependencies = 1;
